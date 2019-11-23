@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import "./landing.css";
-import TopName from ""
-import Description from "../components/topName.";
-import Form from "../components/form";
-import ScrollDown from "../components/scrollDown";
+import TopName from "./components/topName"
+import Description from "./components/description";
+import Form from "./components/form";
+import ScrollDown from "./components/scrollDown";
 
 
 
@@ -18,10 +18,10 @@ class Landing extends Component {
                     ></TopName>
                     {/*--*/}
                     {/*description*/}
-                    <description></description>
+                    <Description></Description>
                     {/*--*/}
                     {/*form*/}
-                    <form></form>
+                    <Form></Form>
                     {/*--*/}
                     {/*scroll down*/}
                     <ScrollDown></ScrollDown>
